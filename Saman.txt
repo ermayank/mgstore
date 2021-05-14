@@ -1,0 +1,13 @@
+Start date of the course : 11/5/2021
+
+Ataka
+1. Header mein items right mein nhi ja rhi
+2. Understand if item exist functinality in cartReducer 
+3. arry .reduce() ?
+
+Notes
+Const ==> Reducer ==> Action
+
+Products ==> Application level state (Redux)
+Quantity on Product screen ==> Component level state
+Cart ==> 

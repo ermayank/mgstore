@@ -1,4 +1,0 @@
-1. Header mein items right mein nhi ja rhi
-2. products api not getting 404 for invalid id
-
-Start date of the course : 11/5/2021
