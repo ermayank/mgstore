@@ -4,15 +4,14 @@ import { Button, Row, Col, ListGroup, Image, Card } from 'react-bootstrap'
 import { useDispatch, useSelector } from 'react-redux'
 import Message from '../components/Message'
 import CheckoutSteps from '../components/CheckoutSteps'
-import { saveShippingAddress } from '../actions/cartActions'
 import { createOrder } from '../actions/orderActions'
 
 const PlaceOrderScreen = ({ history }) => {
   const dispatch = useDispatch()
   const cart = useSelector((state) => state.cart)
-  const addDecimals = (num) => (Math.round(num * 100) / 100).toFixed(2)
 
   // Calculate Prices
+  const addDecimals = (num) => (Math.round(num * 100) / 100).toFixed(2)
   cart.itemsPrice = addDecimals(
     cart.cartItems.reduce((acc, item) => acc + item.price * item.qty, 0)
   )
@@ -29,7 +28,8 @@ const PlaceOrderScreen = ({ history }) => {
 
   useEffect(() => {
     if (success) {
-      history.push(`/order/${order._id}`)
+      history.push(`/order/${order.createdOrder._id}`)
+      console.log(order._id)
     }
     // eslint-disable-next-line
   }, [history, success])
