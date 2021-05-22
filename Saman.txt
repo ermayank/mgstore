@@ -9,6 +9,8 @@ sb-exrcs6294933@personal.example.com
 m+0.7?Ay
 paypal login details
 
+to-do
+1. Add User to deleted user and remove from main users list
 
 Notes
 Const ==> Reducer ==> Action
