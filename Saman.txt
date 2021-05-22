@@ -3,7 +3,12 @@ Start date of the course : 11/5/2021
 Ataka
 1. Header mein items right mein nhi ja rhi
 2. Understand if item exist functinality in cartReducer 
-3. arry .reduce() ?
+3. array .reduce() ?
+
+sb-exrcs6294933@personal.example.com
+m+0.7?Ay
+paypal login details
+
 
 Notes
 Const ==> Reducer ==> Action
