@@ -4,6 +4,7 @@ Ataka
 1. Header mein items right mein nhi ja rhi
 2. Understand if item exist functinality in cartReducer 
 3. array .reduce() ?
+4. Order List screen se ==> order details page mein gaye...data reset nhi hua...pichla order hi show hau...refresh ke baad aaya naya
 
 sb-exrcs6294933@personal.example.com
 m+0.7?Ay
