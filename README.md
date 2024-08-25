@@ -11,7 +11,6 @@ MGStore is a comprehensive e-commerce platform designed to provide users with a 
 - **Payment Gateway Integration:** Incorporated payment gateway integration to facilitate secure and convenient online transactions.
 - **Search and Filtering:** Implemented advanced search and filtering functionalities to help users quickly find products based on their preferences.
 - **Responsive Design:** Ensured a responsive design approach to provide an optimal viewing experience across various devices and screen sizes.
-- **Media Storage:** Utilized Azure Storage for efficient and reliable media storage, ensuring seamless handling of product images and other multimedia content.
 
 ## Technologies Used
 - **Backend:** Node.js, Express.js
@@ -29,3 +28,30 @@ The full project codebase for MGStore, including both frontend and backend compo
 
 ## Conclusion
 MGStore represents a comprehensive e-commerce platform equipped with essential functionalities and powered by modern technologies. With its user-friendly interface, secure authentication, efficient product management, seamless payment processing, and responsive design, MGStore aims to redefine the online shopping experience, providing customers with convenience, variety, and reliability at every step of their journey.
+
+## Demo User
+Administrator
+- Add Users
+- Remove Users
+- Read, Edit, Delete Users
+- Read, Edit, Delete Products
+```
+name: Admin User
+email: admin@email.com
+password: 123456
+```
+
+Demo User
+- Add products to cart
+- All user basic Authentication
+- Add Review and Rating
+```
+name: John Doe
+email: john@email.com
+password: 123456
+```
+```
+name: Jane Doe
+email: jane@email.com
+password: 123456
+```
